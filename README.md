@@ -12,7 +12,7 @@ Welcome to my GitHub profile! I'm a software developer based in Uruguay, passion
 
 ## Portfolio
 
-Check out my [portfolio website](https://samuxmin.github.io) to learn more about me, my skills, and my projects!
+Check out my [portfolio website](https://samuxmin.github.io/samuxmin) to learn more about me, my skills, and my projects!
 
 ## Projects
 
