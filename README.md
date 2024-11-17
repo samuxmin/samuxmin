@@ -1,4 +1,4 @@
-# Hi there, I'm Samuel Mindler! 👋
+# Hello, I'm Samuel Mindler
 
 Welcome to my GitHub profile! I'm a software developer based in Uruguay, passionate about building web applications and exploring new technologies.
 
