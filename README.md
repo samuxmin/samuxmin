@@ -7,7 +7,7 @@ Welcome to my GitHub profile! I'm a software developer based in Uruguay, passion
 - 💻 Advanced student of Computer Technologist, aspiring for an engineering degree.
 - 🌱 Started my programming journey in 2021 with various courses on web development.
 - 🚀 Experienced in team projects using C++, Java, JavaScript, React, Node.js, and MySQL.
-- 👀 Actively seeking my first job experience in the tech industry.
+- 👀 Actively seeking for opportunities in the tech industry.
 - 🔍 Always eager to learn new languages and technologies.
 
 ## Portfolio
