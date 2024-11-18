@@ -1,11 +1,21 @@
 body{
-
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00142e, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00142e, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    color:#E0E0E0;
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     
 }
+
 b{
-    font-size: 400;
+    color:#FFFFFF;
+    font-weight: 400;
+}
+h2{
+    color:#FFFFFF;
+    font-weight: 400;
 }
 .img-me{
     float: right;
@@ -23,7 +33,8 @@ b{
 .nombre-tech{
     text-align: center;
     font-size: larger;
-    font-weight: 600;
+    font-weight: 400;
+    color:#FFFFFF;
 }
 .techno{
     width: 100px;
@@ -65,33 +76,43 @@ hr{
     margin-bottom: 24px;
     margin-top: 0;
 }
-.main-info{
+.info{
     margin-top: 110px;
     font-size: 1.2rem;
+}
+@media (min-width:720px){
+    .info > p{
+        max-width: 70%;
+    }
 }
 ul{
     font-size: 1rem;
 }
 li{
-    margin-bottom: 20px;
+
+    margin:15px 0;
+}
+li > * {
+    margin:8px 0;
+    padding: 0;
 }
 li p{
-    font-weight: 100;
-    padding:0;
-    margin: 0;
+    font-weight: 200;
+
+    font-size: 1rem;
 }
-b {
-    font-weight: 600;
-    color:black;
-}
+
 li a{
-    color: #00308F;
+    color: #56CCF2;
     text-decoration: none;
     font-weight: 400;
-    font-size: 1.4rem;    
+    font-size: 1.2rem;    
 }
 .footer{
     text-align: center;
-    
+}
 
+.project-title{
+    font-size: 1.4rem;
+    font-weight: 400;
 }
