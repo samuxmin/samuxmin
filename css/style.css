@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    padding: 0;
     background: #000428;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #00142e, #000428);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #00142e, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -17,12 +19,7 @@ h2{
     color:#FFFFFF;
     font-weight: 400;
 }
-.img-me{
-    float: right;
-    max-width: 160px;
-    border-radius: 5px;
-    top: 0;
-}
+
 .img-techno{
     margin:0;
     padding: 0;
@@ -52,7 +49,7 @@ ul{
     flex-direction: column;
     margin:auto;
     margin-top: 32px;
-    max-width: 1000px;
+    max-width: 900px;
     width: 80vw;
 }
 
@@ -67,24 +64,19 @@ ul{
 }
 
 hr{
-    margin: 50px 0;
+    margin: 20px 0;
+    color:white;
 }
 
 .title{
     font-weight: 400;
     font-size: 42px;
-    margin-bottom: 24px;
     margin-top: 0;
 }
 .info{
-    margin-top: 110px;
     font-size: 1.2rem;
 }
-@media (min-width:720px){
-    .info > p{
-        max-width: 70%;
-    }
-}
+
 ul{
     font-size: 1rem;
 }
