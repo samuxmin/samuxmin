@@ -23,8 +23,8 @@ h2{
 .img-techno{
     margin:0;
     padding: 0;
-    width:100px;
-	height: 100px;
+    width:72px;
+	height: 72px;
 }
 
 .nombre-tech{
@@ -34,7 +34,7 @@ h2{
     color:#FFFFFF;
 }
 .techno{
-    width: 100px;
+    width: 72px;
 	transition: 0.3s;
 }
 .techno:hover{
