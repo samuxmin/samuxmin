@@ -15,11 +15,18 @@
 
   <body>
     <header>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#technos-all">Technologies</a></li>
+        </ul>
+      </nav>
       <img class="header-img" src="img/samuel.jpg" alt="Samuel Mindler" />
       <div class="header-main">
         <div class="header-title">
           <h1>Samuel Mindler</h1>
-          <h1>Backend Developer</h1>
+          <h1 class="title">Backend Developer</h1>
           <div class="header-links">
             <a class="header-link" href="https://github.com/samuxmin" target="_blank"
               ><img width="40px" src="./img/socia-media/github.svg" class="background-white" alt="github"
@@ -33,11 +40,12 @@
       </div>
     </header>
     <div class="container">
-      <section class="info">
+      <section id="about" class="info">
         <h1 class="title">About me</h1>
         <p class="main-info">
           My autodidact journey in programming began in 2021, and since then, I have continuously sought opportunities to expand my knowledge and skills.<br />
-          Working since 09-2024 in Montevideo Uruguay.
+          Available for remote work as an international contractor worldwide. <br />
+          Working since 09-2024 in Montevideo Uruguay. <br />
         </p>
         <p>
           <b>My education includes:</b><br />
@@ -50,8 +58,77 @@
         </p>
       </section>
       <hr />
-      <section>
-        <div class="technos-container">
+      <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="projects">
+          <div class="project">
+            <ul>
+              <li class="project-container">
+                <div>
+                  <a class="project-title" target="_blank" href="https://tallergestion.azurewebsites.net ">Customer service offices management</a>
+                  <p>
+                    A web application developed with <b>.NET 8</b> and <b>Server side Blazor</b> to manage customer service offices across various regions. This
+                    project features real-time updates powered by <b>SignalR</b>, an interactive UI, and dynamic data visualization with ChartJs.Blazor.
+                  </p>
+                  <a target="_blank" href="https://github.com/samuxmin/tallergestion/tree/master">Code</a>
+                </div>
+                <img src="img/projects/gestion.png" alt="Customer service offices" class="project-image" />
+              </li>
+              <hr />
+              <li class="project-container">
+                <div>
+                  <a class="project-title" target="_blank" href="https://github.com/samuxmin/TallerJava/tree/master">Car toll system</a>
+                  <p>Made with JavaEE, using SOAP and REST API</p>
+                  <a target="_blank" href="https://github.com/samuxmin/TallerJava/tree/master">Code</a>
+                </div>
+                <img src="img/projects/restsoapapi.png" alt="Car Toll System" class="project-image" />
+              </li>
+              <hr />
+              <li class="project-container">
+                <div>
+                  <a class="project-title" target="_blank" href="https://tallerphp.uy/myupgrade">MyUpgrade</a>
+                  <p>Technology e-commerce made for college, uses Angular 18 and PHP</p>
+                  <a target="_blank" href="https://github.com/samuxmin/myUpgrade">Code</a>
+                </div>
+                <img src="img/projects/myupgrade.png" alt="MyUpgrade project" class="project-image" />
+              </li>
+              <hr />
+              <li class="project-container">
+                <div>
+                  <a class="project-title" target="_blank" href="https://github.com/samuxmin/darkVolumes">Dark Volumes Manga Book API</a>
+                  <p>RESTful API made with Typescript, NodeJS and MySQL</p>
+                  <a target="_blank" href="https://github.com/samuxmin/darkVolumes">Code</a>
+                </div>
+                <img src="img/projects/restapi.png" alt="Dark Volumes" class="project-image" />
+              </li>
+              <hr />
+              <li class="project-container">
+                <div>
+                  <a class="project-title" target="_blank" href="https://rick-and-morty-samuxmin.netlify.app">Rick and Morty Info Page</a>
+                  <p>React page that fetch data from an API</p>
+                  <a target="_blank" href="https://github.com/samuxmin/rickandmorty">Code</a>
+                </div>
+                <img src="img/projects/rickandmorty.png" alt="MyUpgrade project" class="project-image" />
+              </li>
+              <hr />
+              <li class="project-container">
+                <div>
+                  <a class="project-title" target="_blank" href="https://katana-h67oo9irp-samuxmin.vercel.app/">Katana Online Rock Paper Scissors</a>
+                  <p>
+                    Online rock paper scissors game that uses NodeJS, express and websocket
+                    <span>(most free hosts doesn't support websocket, so you have to download the project and excecute node index.js)</span>
+                  </p>
+                  <a target="_blank" href="https://github.com/samuxmin/katana">Code</a>
+                </div>
+                <img src="img/projects/rockpaperscissor.png" alt="Rock Paper Scissors" class="project-image" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section id="technos-all">
+        <div id="programming" class="technos-container">
           <h2>Programming Languages</h2>
           <div class="technologies">
             <div class="techno">
@@ -90,7 +167,7 @@
             </div>
           </div>
         </div>
-        <div class="technos-container">
+        <div id="frameworks" class="technos-container">
           <h2>Frameworks</h2>
           <div class="technologies">
             <div class="techno">
@@ -111,7 +188,7 @@
             </div>
           </div>
         </div>
-        <div class="technos-container">
+        <div id="tools" class="technos-container">
           <h2>Tools</h2>
           <div class="technologies">
             <div class="techno">
@@ -154,60 +231,7 @@
         </div>
       </section>
       <hr />
-      <section class="projects-section">
-        <h2>Projects</h2>
-        <div class="projects">
-          <div class="project">
-            <ul>
-              <li>
-                <a class="project-title" target="_blank" href="https://tallergestion.azurewebsites.net ">Customer service offices management</a>
-                <img src="img/projects/gestion.png" alt="Customer service offices" class="project-image" />
-                <p>
-                  A web application developed with <b>.NET 8</b> and <b>Server side Blazor</b> to manage customer service offices across various regions. This
-                  project features real-time updates powered by <b>SignalR</b>, an interactive UI, and dynamic data visualization with ChartJs.Blazor.
-                </p>
-                <a target="_blank" href="https://github.com/samuxmin/tallergestion/tree/master">Code</a>
-              </li>
-              <li>
-                <a class="project-title" target="_blank" href="https://github.com/samuxmin/TallerJava/tree/master">Car toll system</a>
-                <img src="img/projects/restsoapapi.png" alt="Car Toll System" class="project-image" />
-
-                <p>Made with JavaEE, using SOAP and REST API</p>
-                <a target="_blank" href="https://github.com/samuxmin/TallerJava/tree/master">Code</a>
-              </li>
-              <li>
-                <a class="project-title" target="_blank" href="https://tallerphp.uy/myupgrade">MyUpgrade</a>
-                <img src="img/projects/myupgrade.png" alt="MyUpgrade project" class="project-image" />
-                <p>Technology e-commerce made for college, uses Angular 18 and PHP</p>
-                <a target="_blank" href="https://github.com/samuxmin/myUpgrade">Code</a>
-              </li>
-              <li>
-                <a class="project-title" target="_blank" href="https://github.com/samuxmin/darkVolumes">Dark Volumes Manga Book API</a>
-                <img src="img/projects/restapi.png" alt="Dark Volumes" class="project-image" />
-                <p>RESTful API made with Typescript, NodeJS and MySQL</p>
-                <a target="_blank" href="https://github.com/samuxmin/darkVolumes">Code</a>
-              </li>
-              <li>
-                <a class="project-title" target="_blank" href="https://rick-and-morty-samuxmin.netlify.app">Rick and Morty Info Page</a>
-                <img src="img/projects/rickandmorty.png" alt="MyUpgrade project" class="project-image" />
-                <p>React page that fetch data from an API</p>
-                <a target="_blank" href="https://github.com/samuxmin/rickandmorty">Code</a>
-              </li>
-              <li>
-                <a class="project-title" target="_blank" href="https://katana-h67oo9irp-samuxmin.vercel.app/">Katana Online Rock Paper Scissors</a>
-                <img src="img/projects/rockpaperscissor.png" alt="Rock Paper Scissors" class="project-image" />
-                <p>
-                  Online rock paper scissors game that uses NodeJS, express and websocket
-                  <span>(most free hosts doesn't support websocket, so you have to download the project and excecute node index.js)</span>
-                </p>
-                <a target="_blank" href="https://github.com/samuxmin/katana">Code</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <hr />
-      <footer class="footer">
+      <footer id="follow" class="footer">
         <p>Follow me</p>
         <div>
           <a href="https://github.com/samuxmin" target="_blank"
