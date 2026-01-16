@@ -164,9 +164,15 @@ header {
     }
 }
 
+.mindler-software {
+    border-radius: 50%;
+}
+
 .header-links {
     display: flex;
     flex-direction: row;
+    align-items: center;
+
 }
 
 .header-link {
@@ -237,10 +243,6 @@ a.project-title:hover {
     border-radius: 12px;
 }
 
-.cv-ico {
-    align-self: flex-end;
-    margin-left: auto;
-}
 
 .header-img {
     width: 240px;
