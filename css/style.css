@@ -179,18 +179,17 @@ header {
 
 .header-link {
     margin-right: 12px;
+    position: relative;
+
 }
 
-/* Logo de Mindler con tooltip */
-.mindler-link {
-    position: relative;
-}
+
 
 .mindler-logo {
     border-radius: 50%;
 }
 
-.mindler-tooltip {
+.tooltip {
     position: absolute;
     bottom: -42px;
     left: 50%;
@@ -208,14 +207,14 @@ header {
     transition: opacity 0.25s ease, transform 0.25s ease;
 }
 
-.mindler-tooltip small {
+.tooltip small {
     display: block;
     font-size: 11px;
     color: #bdbdbd;
     margin-top: 2px;
 }
 
-.mindler-link:hover .mindler-tooltip {
+.header-link:hover .tooltip {
     opacity: 1;
     transform: translateX(-50%) translateY(2px);
 }
