@@ -318,9 +318,10 @@ header {
 .main-info {
     margin-left: 20px;
     padding-right: 20px;
+    max-width: 600px;
 }
 
-.aboutme-container>.main-info {
+p.main-info {
 
     max-width: 400px;
 }
