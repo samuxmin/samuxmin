@@ -226,6 +226,50 @@ header {
     padding: 0;
 }
 
+/* =====================
+   SOCIAL LINKS
+===================== */
+.social-links {
+    display: flex;
+    gap: 14px;
+    margin-top: 0px;
+    justify-content: center;
+    align-items: end;
+    flex-wrap: wrap;
+}
+
+.social-btn {
+    padding: 0;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.25s ease, background 0.25s ease;
+    color: white;
+    height: 40px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Instagram */
+.social-btn.instagram {
+    background: linear-gradient(135deg, #F58529, #DD2A7B, #8134AF);
+}
+
+.social-btn.instagram:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 22px rgba(221, 42, 123, 0.35);
+}
+
+/* TikTok */
+.social-btn.tiktok {
+    background: linear-gradient(135deg, #010101, #333);
+}
+
+.social-btn.tiktok:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 22px rgba(221, 42, 123, 0.35);
+}
+
 /* ============================================
    NAVEGACIÓN
    ============================================ */
@@ -274,7 +318,11 @@ header {
 .main-info {
     margin-left: 20px;
     padding-right: 20px;
-    max-width: 480px;
+}
+
+.aboutme-container>.main-info {
+
+    max-width: 400px;
 }
 
 .about-img {
